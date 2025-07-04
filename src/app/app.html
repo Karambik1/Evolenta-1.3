@@ -1,0 +1,11 @@
+<h3>*ngFor</h3>
+<ul>
+  <li [id]="item.name" *ngFor="let item of array">{{item.name}}</li>
+</ul>
+
+<h3>DD/MM/YYYY</h3>
+<p>{{date_now | date: 'dd.MM.yyyy'}}</p>
+
+<h3>Добавление 5 к числу</h3>
+<p>Исходное число: {{ number }}</p>
+<p>Исходное число +5: {{ number | plusFivePipe }}</p>
