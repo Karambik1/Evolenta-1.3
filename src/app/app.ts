@@ -21,5 +21,5 @@ array = [
     }
   ];
   date_now = new Date();
-  number = 12;
+  number = 100;
 } 

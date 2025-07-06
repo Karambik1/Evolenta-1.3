@@ -6,6 +6,55 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    /* Глобальные стили для всего документа */
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5; /* Светлый фон */
+    }
+
+    /* Стили для корневого Angular-компонента */
+    app-root {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 1200px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    /* Стили для кнопок (аналогичные предыдущим) */
+    button {
+      margin: 10px;
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      width: 200px;
+    }
+
+    button:hover {
+      background-color: #3367d6;
+    }
+
+    /* Стиль для router-outlet */
+    router-outlet {
+      width: 100%;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
   <app-root></app-root>
